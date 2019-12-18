@@ -1,0 +1,32 @@
+.postListItem {
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+.postListItem:hover {
+    background: #eee;
+    border-color: #aaa;
+    cursor: pointer;
+}
+
+.postListItem h2 span, .postItem h2 span {
+    font-size: 0.8em;
+    color: #666;
+    text-transform: uppercase;
+}
+
+.postListItem p {
+    max-width: 500px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.postListItem p::after {
+    content: " [Read More]";
+}
+
+.App-list-item {
+    border-top: 1px solid #ddd;
+}
